@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Index() {
   return (
     <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
       <div class="container">
-        <a class="navbar-brand waves-effect" target="_blank">
+        <Link class="navbar-brand waves-effect" to="/">
           <strong class="blue-text"> S.S. Cycle World</strong>
-        </a>
+        </Link>
 
         <button
           class="navbar-toggler"

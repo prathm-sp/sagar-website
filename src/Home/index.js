@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../img/kaur-kristjan-miUC0b1IVYU-unsplash.jpg";
 import Logo1 from "../img/zoltan-tasi-WwlP3F1VksA-unsplash.jpg";
 import Logo2 from "../img/derek-thomson-AJ-7QpXV9U4-unsplash.jpg";
+import { Link } from "react-router-dom";
 
 function Index() {
   return (
@@ -229,9 +230,9 @@ function Index() {
                       class="card-img-top"
                       alt=""
                     />
-                    <a>
+                    <Link to="/pro-details">
                       <div class="mask rgba-white-slight"></div>
-                    </a>
+                    </Link>
                   </div>
 
                   <div class="card-body text-center">
@@ -265,9 +266,9 @@ function Index() {
                       class="card-img-top"
                       alt=""
                     />
-                    <a>
+                    <Link to="/pro-details">
                       <div class="mask rgba-white-slight"></div>
-                    </a>
+                    </Link>
                   </div>
 
                   <div class="card-body text-center">
@@ -297,9 +298,9 @@ function Index() {
                       class="card-img-top"
                       alt=""
                     />
-                    <a>
+                    <Link to="/pro-details">
                       <div class="mask rgba-white-slight"></div>
-                    </a>
+                    </Link>
                   </div>
 
                   <div class="card-body text-center">
@@ -333,9 +334,9 @@ function Index() {
                       class="card-img-top"
                       alt=""
                     />
-                    <a>
+                    <Link to="/pro-details">
                       <div class="mask rgba-white-slight"></div>
-                    </a>
+                    </Link>
                   </div>
 
                   <div class="card-body text-center">
@@ -367,9 +368,9 @@ function Index() {
                       class="card-img-top"
                       alt=""
                     />
-                    <a>
+                    <Link to="/pro-details">
                       <div class="mask rgba-white-slight"></div>
-                    </a>
+                    </Link>
                   </div>
 
                   <div class="card-body text-center">
@@ -403,9 +404,9 @@ function Index() {
                       class="card-img-top"
                       alt=""
                     />
-                    <a>
+                    <Link to="/pro-details">
                       <div class="mask rgba-white-slight"></div>
-                    </a>
+                    </Link>
                   </div>
 
                   <div class="card-body text-center">
@@ -435,9 +436,9 @@ function Index() {
                       class="card-img-top"
                       alt=""
                     />
-                    <a>
+                    <Link to="/pro-details">
                       <div class="mask rgba-white-slight"></div>
-                    </a>
+                    </Link>
                   </div>
 
                   <div class="card-body text-center">
@@ -471,9 +472,9 @@ function Index() {
                       class="card-img-top"
                       alt=""
                     />
-                    <a>
+                    <Link to="/pro-details">
                       <div class="mask rgba-white-slight"></div>
-                    </a>
+                    </Link>
                   </div>
 
                   <div class="card-body text-center">
