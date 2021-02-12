@@ -9,6 +9,7 @@ import ProDetails from "./Pro-Details";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
+  console.log("Appd started");
   return (
     <div className="App">
       <Router>
